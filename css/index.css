@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "UTF-08";
 
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
@@ -80,8 +80,7 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color: #4b7070c4;
-    
+    background-color: #4b7070c4; 
 }
 
 /* Conteudo do site */

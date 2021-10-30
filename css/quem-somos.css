@@ -1,0 +1,84 @@
+@charset "UTF-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Configurações de variáveis em CSS */
+:root {
+    --cor0: #405952;
+    --cor1: #4b7070;
+    --cor2: #9c9b7a;
+    --cor3: #ff974f;
+    --cor4: #ff5a42;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, Sans-Serif;
+    --fonte-destaque: 'Rajdhani', sans-serif;
+    --fonte-titulo: 'Bebas Neue', 'cursive';
+}
+
+/* Seletor global para retirar margem */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Configurações do corpo do site */
+body {
+    background-color: var(--cor2);
+    font-family: var(--fonte-padrao);
+}
+
+p {
+    margin: 15px;
+    text-indent: 40px;
+    font-size: 1em;
+    line-height: 1.3em;
+}
+
+/* Configurações do cabeçalho */
+header {
+    background-color: var(--cor0);
+    color: var(--cor2);
+    min-height: 160px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header > h1 {
+    color: var(--cor2);
+    font-family: var(--fonte-titulo);
+    font-size: 3.4em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.507);
+}
+
+header > p {
+    color: var(--cor2);
+    font-family: var(--fonte-titulo);
+    font-size: 1.2em;
+    max-width: 550px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.37);
+}
+
+/* Configurações do menu de navegação */
+nav {
+    background-color: var(--cor0);
+    height: 35px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.384);
+}
+
+nav > a {
+    color: var(--cor3);
+    font-family: var(--fonte-titulo);
+    text-decoration: none;
+    padding: 8px;
+    margin-left: 5px;
+    border-radius: 3px;
+    font-size: 1.2em;
+    transition-duration: .3s;
+}
+
+nav > a:hover {
+    background-color: #4b7070c4;   
+}

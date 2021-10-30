@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Configurações de variáveis em CSS */
+:root {
+    --cor0: #405952;
+    --cor1: #4b7070;
+    --cor2: #9c9b7a;
+    --cor3: #ff974f;
+    --cor4: #ff5a42;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, Sans-Serif;
+    --fonte-destaque: 'Rajdhani', sans-serif;
+    --fonte-titulo: 'Bebas Neue', 'cursive';
+}
+
+/* Seletor global para retirar margem */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Configurações do corpo do site */
+body {
+    background-color: var(--cor2);
+    font-family: var(--fonte-padrao);
+}
+
+p {
+    margin: 15px;
+    text-indent: 40px;
+    font-size: 1em;
+    line-height: 1.3em;
+}
+
+/* Configurações do cabeçalho */
+header {
+    background-color: var(--cor0);
+    color: var(--cor2);
+    min-height: 160px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header > h1 {
+    color: var(--cor2);
+    font-family: var(--fonte-titulo);
+    font-size: 3.4em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.507);
+}
+
+header > p {
+    color: var(--cor2);
+    font-family: var(--fonte-titulo);
+    font-size: 1.2em;
+    max-width: 550px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.37);
+}
+
+/* Configurações do menu de navegação */
+nav {
+    background-color: var(--cor0);
+    height: 35px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.384);
+}
+
+nav > a {
+    color: var(--cor3);
+    font-family: var(--fonte-titulo);
+    text-decoration: none;
+    padding: 8px;
+    margin-left: 5px;
+    border-radius: 3px;
+    font-size: 1.2em;
+    transition-duration: .3s;
+}
+
+nav > a:hover {
+    background-color: #4b7070c4;
+    
+}
+
+/* Conteudo do site */
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h1 {
+    font-family: var(--fonte-destaque);
+    color: var(--cor1);
+    font-size: 2.3em;
+    text-indent: 15px;
+    
+}
+
+main h2 {
+    font-family: var(--fonte-destaque);
+    color: var(--cor0);
+    font-size: 1.6em;
+    text-indent: 15px;
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+}
+
+main p {
+    text-align: justify;
+}
+
+main img {
+    width: 100%;
+}
+
+main article picture figcaption.imagens h4 {
+    margin: -3px;
+    text-indent: 5px;
+}
+
+main article picture figcaption.imagens p {
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+main article ul.aplicacao {
+    margin-top: 15px;
+    margin-left: 20px;
+    line-height: 1.5em;
+}
+
+main article ul.aplicacao li {
+    list-style: none;
+}
+
+main article div.video {
+    background-color: var(--cor1);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 58%;
+}
+
+main article div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+/* Configurações do conteúdo periferico aside */
+aside h3 {
+    font-family: var(--fonte-destaque);
+    color: var(--cor0);
+    font-size: 1.6em;
+    text-indent: 15px;
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+}
+
+aside ul {
+    background-color: var(--cor0);
+    margin-top: 0px;
+    line-height: 1.6em;
+    padding: 5px;
+    border-radius: 4px 4px 6px 6px;
+}
+
+
+aside ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+aside ul li a {
+    font-family: var(--fonte-titulo);
+    font-size: 1.2em;
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+aside ul li a:hover {
+    color: var(--cor3);
+}
+
+/* Configurações dos rodapé */
+footer {
+    background-color: var(--cor0);
+    color: var(--cor2);
+    text-align: center;
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+footer a {
+    color: var(--cor2);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor3);
+}

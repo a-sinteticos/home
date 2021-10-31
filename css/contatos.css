@@ -83,3 +83,22 @@ nav > a:hover {
     background-color: #4b7070c4;   
 }
 
+/* Configurações dos rodapé */
+footer {
+    background-color: var(--cor0);
+    color: var(--cor2);
+    text-align: center;
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+footer a {
+    color: var(--cor2);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor3);
+}

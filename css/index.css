@@ -17,7 +17,7 @@
     --fonte-titulo: 'Bebas Neue', 'cursive';
 }
 
-/* Seletor global para retirar margem */
+/* Seletor global para retirar margens */
 * {
     margin: 0px;
     padding: 0px;

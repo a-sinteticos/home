@@ -103,6 +103,18 @@ main h1 {
     text-indent: 15px;
 }
 
+
+/* Ajustes dos perfil */
+.perfil {
+    background-color: #ff974f;
+}
+
+.informacoes {
+    background-color: aqua;
+    inset-block: ;
+}
+
+
 /* Configurações dos rodapé */
 footer {
     background-color: var(--cor0);

@@ -105,14 +105,45 @@ main h1 {
 
 
 /* Ajustes dos perfil */
-.perfil {
-    background-color: #ff974f;
+.quem-somos {
+    display: block;
+    padding: 30px;
 }
 
-.informacoes {
-    background-color: aqua;
-    inset-block: ;
+.perfil-vandeson {
+    box-shadow: 5px 5px 5px black;
 }
+
+.informacoes-vandeson {
+    padding: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.250);
+}
+
+.perfil-david {
+    box-shadow: 5px 5px  5px black;
+}
+
+.informacoes-david {
+    padding: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.250);
+}
+
+/*
+.perfil-vandeson {
+    width: 300px;
+    height: 300px;
+    
+}
+
+.informacoes-vandeson {
+    
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 50%;
+    top: 50%;
+    
+} */
 
 
 /* Configurações dos rodapé */

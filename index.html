@@ -1,31 +1,79 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>A-Sintéticos</title>
-    <link rel="stylesheet" href="./src/css/index.css">
-    <link rel="shortcut icon" href="./src/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./src/imagens/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variaveis.css">
+    <link rel="stylesheet" href="./src/css/global.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/header.css">
+
 </head>
 <body>
-    <!--Cabeçalho-->
-    <header>
-        <h1>A-Sintéticos</h1>
-        <p>Tudo aquilo que você sempre quis saber sobre o mundo dos geossintéticos, em um único lugar</p>
+    <header class="header">
+        <div class="navegacao">
+            <a href="#">
+                <img src="./src/imagens/logo.png" alt="Logo A-Sintéticos">
+            </a>
+
+            <nav>
+                <input id="menu-hamburguer" type="checkbox"/>
+                <label for="menu-hamburguer">
+                  <div class="menu">
+                    <span class="hamburguer"></span>
+                  </div>
+                </label>
+        
+                <ul class="menu-desktop">
+                  <li><a href="geossinteticos/geossinteticos.html" target="_self">Geossintéticos</a></li>
+                  <li><a href="quem-somos/q-somos.html" target="_self">Quem Somos</a></li>
+                  <li><a href="contatos/contatos.html" target="_self">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <!-- Menú de navegação -->
-    <nav>
-        <a href="#">Home</a>
-        <a href="geossinteticos/geossinteticos.html" target="_self" rel="next">Geossintéticos</a>
-        <a href="quem-somos/q-somos.html" target="_self" rel="next">Quem Somos</a>
-        <a href="contatos/contatos.html" target="_self" rel="next">Contatos</a>
-    </nav>
-
-    <!--Conteúdo do Site-->
     <main>
+        <div class="img-carrossel">
+            <img class="imagem ativa" src="./src/imagens/geogridler.jpg" alt="Geogrelhas"/>
+
+            <img class="imagem" src="./src/imagens/breathable-membrane.jpg" alt="Impermeabilização"/>
+
+            <img class="imagem" src="./src/imagens/georeshetka.jpg" alt="Geocélulas"/>
+
+            <img class="imagem" src="./src/imagens/geomembrana.png" alt="Geomembranas"/>
+
+            <img class="imagem" src="./src/imagens/perforated-geocell.jpg" alt="Geocélulas"/>
+
+            <img class="imagem" src="./src/imagens/geotekstil.jpg" alt="Geotêxteis"/>
+        </div>
+
+        <div class="conteudo">
+            <div class="botoes-carrossel">
+                <button class="botao selecionado"></button>
+                <button class="botao"></button>
+                <button class="botao"></button>
+                <button class="botao"></button>
+                <button class="botao"></button>
+                <button class="botao"></button>
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/js/javascript.js"></script>
+
+    <!-- <h1>A-Sintéticos</h1>
+        <p>Tudo aquilo que você sempre quis saber sobre o mundo dos geossintéticos, em um único lugar</p> -->
+    <!-- Menú de navegação -->
+    
+
+    
+    <!-- <main>
         <article>
             <h1>História dos geossintéticos</h1>
             <p>A utilização de materiais para melhorar a qualidade dos solos é uma prática comum desde alguns milênios atrás. Estivas de junco, solo misturado com palha, bambus, etc., em geral materiais vegetais constituídos de fibras resistentes, foram empregados nos Ziggurats, na Grande Muralha da China e em várias obras do Império Romano.</p>
@@ -63,7 +111,7 @@
                 </figcaption>
             </picture>
 
-            <!-- Video do youtub -->
+
             <div class="video">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/9eiGarlQ6mA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
@@ -82,10 +130,10 @@
         </article>
     </main>
 
-    <!--Rodapé-->
+    
     <footer>
         <p>Copyright © 2022 | Site Criado Por <a href="https://www.linkedin.com/in/vandeson-santos-9a8639109/" target="_blank">Vandeson Santos</a> Para Desenvolvimento de Tecnologia em Geossintéticos</p>
-    </footer>
+    </footer> -->
 
 </body>
 </html>

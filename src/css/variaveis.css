@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --cor0: #405952;
+    --cor1: #4b7070;
+    --cor2: #9c9b7a;
+    --cor3: #ff974f;
+    --cor4: #ff5a42;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, Sans-Serif;
+    --fonte-destaque: 'Rajdhani', sans-serif;
+    --fonte-titulo: 'Bebas Neue', 'cursive' sans-serif;
+}

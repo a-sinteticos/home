@@ -1,30 +1,54 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Geossintéticos</title>
+    <title>A-Sintéticos</title>
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/variaveis.css">
+    <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/geossinteticos.css">
-    <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/header.css">
 </head>
 <body>
-    <!--Cabeçalho-->
-    <header>
-        <h1>A-Sintéticos</h1>
-        <p>Tudo aquilo que você sempre quis saber sobre o mundo dos geossintéticos, em um único lugar</p>
+    <header class="header">
+        <div class="navegacao">
+            <a href="../../index.html">
+                <img src="../imagens/logo.png" alt="Logo A-Sintéticos">
+            </a>
+
+            <nav>
+                <input id="menu-hamburguer" type="checkbox"/>
+                <label for="menu-hamburguer">
+                  <div class="menu">
+                    <span class="hamburguer"></span>
+                  </div>
+                </label>
+        
+                <ul class="menu-desktop">
+                  <li><a href="#">Geossintéticos</a></li>
+                  <li><a href="quem-somos/q-somos.html" target="_self">Quem Somos</a></li>
+                  <li><a href="contatos/contatos.html" target="_self">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <nav>
-        <a href="../index.html" target="_self" rel="prev">Home</a>
-        <a href="#">Geossintéticos</a>
-        <a href="../quem-somos/q-somos.html" target="_self" rel="next">Quem Somos</a>
-        <a href="../contatos/contatos.html" target="_self" rel="next">Contatos</a>
-    </nav>
-
-    <!--Conteúdo do Site-->
     <main>
+        <section class="titulo">
+            <h1>
+                Tudo aquilo que você sempre quis saber sobre o mundo dos geossintéticos, em um único lugar.
+            </h1>
+
+            <img src="../imagens/installateur-01.jpg" alt="">
+        </section>
+    </main>
+
+
+    <!-- <main>
         <article>
             <h1>Geossintéticos</h1>
 
@@ -53,9 +77,9 @@
         </article>
     </main>
 
-    <!--Rodapé-->
+    
     <footer>
         <p>Copyright © 2022 | Site Criado Por <a href="https://www.linkedin.com/in/vandeson-santos-9a8639109/" target="_blank">Vandeson Santos</a> Para Desenvolvimento de Tecnologia em Geossintéticos</p>
-    </footer>
+    </footer> -->
 </body>
 </html>

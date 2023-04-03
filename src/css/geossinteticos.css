@@ -1,0 +1,40 @@
+body{
+    background-color: var(--cor0);
+    max-width: 1100px;
+    margin: auto;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    gap: 110px;
+    margin-top: 50px;
+    padding: 0 30px;
+}
+
+.titulo h1{
+    color: var(--cor2);
+    font-family: var(--fonte-destaque);
+    font-size: 3.5rem;
+    line-height: 1.3em;
+    text-shadow: 1px 1px 1px #0000009d;
+}
+
+.titulo img{
+    width: 100%;
+    border-radius: 5px;
+    transition: ease-out;
+}
+
+.titulo img:hover{
+    transform: scale(1.03);
+}
+
+@media(max-width: 750px){
+    .titulo{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    
+}

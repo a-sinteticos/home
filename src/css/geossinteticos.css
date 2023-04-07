@@ -8,7 +8,7 @@ body{
     display: flex;
     align-items: center;
     gap: 110px;
-    margin-top: 50px;
+    margin: 50px 0;
     padding: 0 30px;
 }
 
@@ -30,11 +30,61 @@ body{
     transform: scale(1.03);
 }
 
+.geossinteticos{
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    gap: 50px;
+}
+
+.geossinteticos div{
+    width: 100%;
+    transition: ease-out;
+}
+
+.geossinteticos div img{
+    border-radius: 5px;
+}
+
+.geossinteticos img:hover{
+    transform: scale(1.03);
+}
+
+.geossinteticos h2{
+    font-family: var(--fonte-destaque);
+    color: var(--cor2);
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.geossinteticos p{
+    font-size: 1.5rem;
+    line-height: 1.4em;
+    color: #ffffffd2;
+}
+
 @media(max-width: 750px){
     .titulo{
         flex-direction: column;
         gap: 20px;
     }
 
+    .geossinteticos{
+        flex-direction: column;
+        gap: 20px;
+    }
     
+    .geossinteticos div img{
+        display: none;
+    }
+
+    .geossinteticos h2{
+        font-size: 3.5rem;
+    }
+
+    .geossinteticos p{
+        font-size: 1.8rem;
+        text-align: justify;
+    }
 }
